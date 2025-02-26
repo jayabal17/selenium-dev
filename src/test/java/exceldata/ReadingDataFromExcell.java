@@ -15,7 +15,7 @@ public class ReadingDataFromExcell {
 		// TODO Auto-generated method stub
 		FileInputStream file=new FileInputStream(System.getProperty("user.dir")+"\\testdata\\sheet1.xlsx");	
 		//FileInputStream file=new FileInputStream	("C:\\Users\\jayab\\eclipse-workspace\\demoone\\testdata\\sheet1.xlsx");
-		
+		//tEst
 		XSSFWorkbook workbook=new XSSFWorkbook(file);
 		
 		XSSFSheet sheet=  workbook.getSheet("sheet1");      //XSSFSheet sheet1=workbook.getSheetAt(0);
